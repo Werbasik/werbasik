@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <form action="https://formspree.io/mwernerowicz@gmail.com" method="post">
+
+        First name:<br>
+        <input type="text" name="Imię" value="Marta"><br> Last name:<br>
+        <input type="text" name="Nazwisko" value="Slotwinska"><br><br>
+       
+   
+
+  
+        <fieldset>
+            <legend>Dane osobowe:</legend>
+            <label>Adres email:<br />
+                <input type="text" name= "email" /></label><br />
+            <label>Telefon:<br />
+                <input type="text" name="telephone"/></label>
+
+        </fieldset>
+
+
+    <fieldset>
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">kobieta</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">mężczyzna</label><br />
+        
+    </fieldset>
+ 
+        <p>Wybierz miasto</p>
+        <select>
+  <option value="Warszawa">Warszawa</option>
+  <option value="Gdańsk">Gdańsk</option>
+  <option value="Kraków">Kraków</option>
+  <option value="Toruń">Toruń</option>
+</select>
+ 
+    <p>
+        <label for="comments">Komentarz</label><br />
+        <textarea name="komentarz" rows="4" cols="40" id="comments"></textarea>
+    </p>
+    <fieldset>
+        <label>
+        <input type="checkbox" name="subscribe" checked="checked" />
+        Chcę być informowany o nowych ofertach
+    </label>
+        <br />
+        <input type="submit" value="prześlij infomacje" />
+    </fieldset>
+    </form>
+    <footer>
+        <p>opublikowane przez: Marta Słotwinska</p>
+        <p>kontakt:<a href="mwernerowicz@gmail.com">mwernerowicz@gmail.com</a></p>
+
+    </footer>
+    
+</body>
+
+</html>
